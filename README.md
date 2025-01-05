@@ -8,4 +8,4 @@ Cameras are essential vision instruments to capture images for pattern detection
 
 The UniPointNet has been integrated into GeoHOI for end-to-end HOI detection. Please check out our other repository [here](https://github.com/zhumanli/UniPointNet) for independent use. 
 
-Instructions will be coming soon.
+
