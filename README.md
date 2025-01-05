@@ -8,4 +8,12 @@ Cameras are essential vision instruments to capture images for pattern detection
 
 The UniPointNet has been integrated into GeoHOI for end-to-end HOI detection. Please check out our other repository [here](https://github.com/zhumanli/UniPointNet) for independent use. 
 
-
+# Setup
+### Setup environment
+```
+conda create -n GeoHOI python=3.8
+conda activate GeoHOI
+pip install -r requirements.txt
+```
+### HOI dataset
+Please refer to [STIP](https://github.com/zyong812/STIP) for V-COCO and HICO-DET preparation.
