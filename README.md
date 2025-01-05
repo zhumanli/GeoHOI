@@ -19,8 +19,14 @@ pip install -r requirements.txt
 Please refer to [STIP](https://github.com/zyong812/STIP) for V-COCO and HICO-DET preparation.
 
 # Training/Testing on V-COCO
+```
+CUDA_VISIBLE_DEVICES=0,1 python GeoHOI_main.py --validate --epoch 30 --num_hoi_queries 32 --batch_size 8 --num_kp 32 --lr 5e-5 --HOIDet --hoi_aux_loss --no_aux_loss --dataset_file vcoco --data_path v-coco --detr_weights https://dl.fbaipublicfiles.com/detr/detr-r50-panoptic-00ce5173.pth --output_dir checkpoints/vcoco --run_name vcoco
+```
 
 # Training/Testing on HICO-DET
+```
+CUDA_VISIBLE_DEVICES=0,1 python GeoHOI_main.py --validate --epoch 30 --num_hoi_queries 32 --batch_size 8 --num_kp 32 --lr 5e-5 --HOIDet --hoi_aux_loss --no_aux_loss --dataset_file hico-det --data_path hico_20160224_det --detr_weights https://dl.fbaipublicfiles.com/detr/detr-r50-panoptic-00ce5173.pth --output_dir checkpoints/hico-det --run_name hico-det
+```
 
 # Citing
 If you find this work useful, please consider our paper to cite:
