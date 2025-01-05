@@ -17,3 +17,26 @@ pip install -r requirements.txt
 ```
 ### HOI dataset
 Please refer to [STIP](https://github.com/zyong812/STIP) for V-COCO and HICO-DET preparation.
+
+# Training/Testing on V-COCO
+
+# Training/Testing on HICO-DET
+
+# Citing
+If you find this work useful, please consider our paper to cite:
+```
+@ARTICLE{zhu24geometric,
+  author={Zhu, Manli and Ho, Edmond S. L. and Chen, Shuang and Yang, Longzhi and Shum, Hubert P. H.},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Geometric Features Enhanced Human–Object Interaction Detection}, 
+  year={2024},
+  volume={73},
+  number={},
+  pages={1-14},
+  keywords={Transformers;Feature extraction;Visualization;Detectors;Semantics;Instruments;Shape;Attention mechanism;graph convolutional network (GCN);human-object interaction (HOI);interactiveness learning;object keypoints},
+  doi={10.1109/TIM.2024.3427800}}
+}
+```
+# Acknowledgements
+We would like to express our gratitude to the open-source project [STIP](https://github.com/zyong812/STIP) and its contributors since our framework is heavily built on it.
+
